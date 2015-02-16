@@ -1,6 +1,6 @@
 {
   "name": "set-map",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Map over a Set",
   "license": "MIT",
   "repository": "sindresorhus/set-map",
