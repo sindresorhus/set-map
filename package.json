@@ -1,0 +1,32 @@
+{
+  "name": "set-map",
+  "version": "0.0.0",
+  "description": "Map over a Set",
+  "license": "MIT",
+  "repository": "sindresorhus/set-map",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "set",
+    "map",
+    "es6",
+    "es2015",
+    "iterator",
+    "iterate"
+  ],
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
