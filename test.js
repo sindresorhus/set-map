@@ -1,11 +1,6 @@
-'use strict';
-var test = require('ava');
-var setMap = require('./');
+import test from 'ava';
+import fn from './';
 
-test(function (t) {
-	t.assert(setMap(new Set(['foo', 'bar']), function (el) {
-		return 'yo' + el;
-	}).has('yofoo'));
-
-	t.end();
+test(t => {
+	t.true(fn(new Set(['foo', 'bar']), x => 'yo' + x).has('yofoo'));
 });
