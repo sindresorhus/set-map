@@ -1,6 +1,6 @@
 import test from 'ava';
-import fn from './';
+import m from './';
 
 test(t => {
-	t.true(fn(new Set(['foo', 'bar']), x => 'yo' + x).has('yofoo'));
+	t.true(m(new Set(['foo', 'bar']), x => 'yo' + x).has('yofoo'));
 });
