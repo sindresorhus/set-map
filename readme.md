@@ -1,4 +1,4 @@
-# set-map [![Build Status](https://travis-ci.org/sindresorhus/set-map.svg?branch=master)](https://travis-ci.org/sindresorhus/set-map)
+# set-map
 
 > Map over a [`Set`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 
