@@ -1,32 +1,35 @@
 {
-  "name": "set-map",
-  "version": "1.0.0",
-  "description": "Map over a Set",
-  "license": "MIT",
-  "repository": "sindresorhus/set-map",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "set",
-    "map",
-    "es2015",
-    "iterator",
-    "iterate"
-  ],
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  }
+	"name": "set-map",
+	"version": "1.0.0",
+	"description": "Map over a `Set`",
+	"license": "MIT",
+	"repository": "sindresorhus/set-map",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": ">=12"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"set",
+		"map",
+		"es2015",
+		"iterator",
+		"iterate"
+	],
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"xo": "^0.39.1"
+	}
 }

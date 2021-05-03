@@ -1,6 +1,6 @@
 import test from 'ava';
-import m from './';
+import setMap from './index.js';
 
-test(t => {
-	t.true(m(new Set(['foo', 'bar']), x => 'yo' + x).has('yofoo'));
+test('main', t => {
+	t.true(setMap(new Set(['foo', 'bar']), value => `yo${value}`).has('yofoo'));
 });

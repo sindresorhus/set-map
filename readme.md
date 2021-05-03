@@ -4,42 +4,35 @@
 
 Because `Set` is missing a `Set#map` method.
 
-
 ## Install
 
 ```
-$ npm install --save set-map
+$ npm install set-map
 ```
-
 
 ## Usage
 
 ```js
-const setMap = require('set-map');
+import setMap from 'set-map';
+
 const set = new Set(['foo', 'bar']);
 
-setMap(set, x => 'yo' + x).values();
+setMap(set, value => `yo${value}`).values();
 //=> ['yofoo', 'yobar']
 ```
 
-
 ## API
 
-### setMap(input, callback)
+### setMap(input, mapper)
 
 #### input
 
 Type: `Set`
 
-`Set` to map over.
+The `Set` to map over.
 
-#### callback(element)
+#### mapper(element)
 
 Type: `function`
 
 Called for every element and should return the new element.
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
